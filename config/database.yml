@@ -1,0 +1,22 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: meme
+  pool: 5
+  username: root
+  password: nimbu
+  host: localhost
+  port: 3306
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: gh
+  pool: 5
+  username: root
+  password: nimbu
+  host: localhost
+  port: 3306
+
